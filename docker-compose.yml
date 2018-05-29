@@ -1,0 +1,29 @@
+server:
+    image: nginx:mainline-alpine
+    container_name: xp_server
+    ports:
+        - "80:80"
+    volumes:
+        - ./sis2.conf:/etc/nginx/conf.d/sis2.conf
+        - ./src:/var/www/html/src
+    links:
+        - php
+
+php:
+    build: .
+    container_name: xp_php
+    volumes:
+        - ./src:/var/www/html/src
+    links:
+        - db
+
+db:
+    image: mariadb
+    container_name: xp_database
+    restart: always
+    ports:
+        - "3306:3306"
+    volumes:
+        - ./mysql:/var/lib/mysql
+    environment:
+        MYSQL_ROOT_PASSWORD: root
