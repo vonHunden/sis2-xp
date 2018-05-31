@@ -1,0 +1,8 @@
+CREATE TABLE persona
+(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50),
+    ci VARCHAR(8),
+    day VARCHAR(15) NOT NULL,
+    hour VARCHAR(5) NOT NULL
+);
