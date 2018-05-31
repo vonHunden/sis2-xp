@@ -76,7 +76,7 @@
 
       <!--CARNET DE INDENTIDAD-->
       <label for="inputPassword" class="sr-only">CI</label>
-      <input type="text" id="inputPassword" class="form-control" placeholder="Carnet Id" required="">
+      <input type="text" id="inputPassword" class="form-control" placeholder="Carnet de Identidad" required="">
 
       <!--DIA INGRESO-->
       <label for="inputEmail" class="sr-only">Dia</label>
