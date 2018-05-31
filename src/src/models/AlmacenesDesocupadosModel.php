@@ -20,6 +20,7 @@ class AlmacenesDesocupadosModel extends Model
             if ($this->verificarExisteAlmacenes($almacenes)){
                 return $this->verificarAlmacenesDesocupados($almacenes);
             }
+            return [];
         } catch (PDOException $e) {
             throw $e;
         }

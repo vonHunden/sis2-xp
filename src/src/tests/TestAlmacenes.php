@@ -12,25 +12,30 @@ class TestAlmacenes extends \PHPUnit_Framework_TestCase
         require_once('./src/models/'.$model.'.php');
         return new $model();
     }
-    public function testAlmacenesVacio(){
+        
+    public function testAlmacenesVacio()
+    {
         $almacenes = $this->model('AlmacenesDesocupadosModel');
         $res = $almacenes->verificarExisteAlmacenes();
         $this->assertEquals(FALSE, $res);
     }
-    public function testAlmacenesExiste(){
+    public function testAlmacenesExiste()
+    {
         $almacenes = $this->model('AlmacenesDesocupadosModel');
         $a = (object) ['idAlmacen'=>1, 'id_titular'=>1, 'nombre_almacen'=>'A123', 'existencias'=>0, 'capacidad'=>100];
         $res = $almacenes->verificarExisteAlmacenes([$a]);
         $this->assertEquals(TRUE, $res);
     }
-    public function testAlmacenesDesocupados(){
+    public function testAlmacenesDesocupados()
+    {
         $almacenes = $this->model('AlmacenesDesocupadosModel');
         $a = (object) ['idAlmacen'=>1, 'id_titular'=>1, 'nombre_almacen'=>'A123', 'existencias'=>0, 'capacidad'=>100];
         $b = (object) ['idAlmacen'=>2, 'id_titular'=>5, 'nombre_almacen'=>'B123', 'existencias'=>0, 'capacidad'=>200];
         $res = $almacenes->verificarAlmacenesDesocupados([$a, $b]);
         $this->assertEquals(2, count($res));
     }
-    public function testAlmacenesDesocupadosFalse(){
+    public function testAlmacenesDesocupadosFalse()
+    {
         $almacenes = $this->model('AlmacenesDesocupadosModel');
         $a = (object) ['idAlmacen'=>1, 'id_titular'=>1, 'nombre_almacen'=>'A123', 'existencias'=>0, 'capacidad'=>100];
         $b = (object) ['idAlmacen'=>2, 'id_titular'=>5, 'nombre_almacen'=>'B123', 'existencias'=>50, 'capacidad'=>200];
