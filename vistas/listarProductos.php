@@ -66,8 +66,10 @@
 
           <!--BOTON PAGINA REGISTRO-->
           <li class="nav-item dropdown">
-            <a class="nav-link" href="personal.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registro</a>
-
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registro</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="personal.php">Ingresar a Registro</a>
+            </div>
           </li>
         </ul>
 
@@ -83,6 +85,7 @@
     <!--TABLAS DE LISTADO DE PRODUCTOS-->
     <main role="main" class="container">
         <div class="jumbotron">
+          <img class="mb-4" src="img/logo.png" alt="" width="400" height="180">
           <h1>LISTADO DE PRODUCTOS POR CATEGORIA</h1>
           <table class="table">
           <thead>
