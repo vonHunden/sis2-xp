@@ -64,7 +64,7 @@
 
           <!--BOTON PAGINA REGISTRO-->
           <li class="nav-item dropdown">
-            <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registro</a>
+            <a class="nav-link" href="personal.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registro</a>
 
           </li>
         </ul>
