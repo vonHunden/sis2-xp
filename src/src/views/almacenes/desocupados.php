@@ -91,7 +91,7 @@
     <tbody>
         <tr>
         <?php foreach($data['almacenes'] as $row) {?>
-            <td><?php echo $row->idAlmacen; ?></td>
+            <td><?php echo $row->id; ?></td>
             <td><?php echo $row->nombre_almacen; ?></td>
             <td><?php echo $row->existencias; ?></td>
             <td><?php echo $row->capacidad; ?></td>

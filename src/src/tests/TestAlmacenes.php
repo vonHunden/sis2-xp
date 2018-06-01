@@ -1,6 +1,6 @@
 <?php
 
-require('./src/.env.php');
+require('./src/env.php');
 require('./src/core/DB.php');
 require('./src/core/Model.php');
     

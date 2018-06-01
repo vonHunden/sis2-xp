@@ -24,18 +24,18 @@ VALUES
 -- disponibilidad con valor 1 significa que esta rejentado, 0 lo contrario
 -- id_titular con valor 0 significa no rejentado
 INSERT INTO almacen 
-(id_titular, disponibilidad, nombre_almacen)
+(id_titular, disponibilidad, nombre_almacen, existencias, capacidad )
 VALUES
-(1, 1, 'I'),
-(2, 1, 'II'),
-(3, 1, 'III'),
-(4, 1, 'IV'),
-(5, 1, 'V'),
-(6, 1, 'VI'),
-(0, 0, 'VII'),
-(0, 0, 'VIII'),
-(0, 0, 'IX'),
-(0, 0, 'X');
+(1, 1, 'I',0,1),
+(2, 1, 'II',1,100),
+(3, 1, 'III',2,200),
+(4, 1, 'IV',3,100),
+(5, 1, 'V',0,200),
+(6, 1, 'VI',2,100),
+(0, 0, 'VII',2,100),
+(0, 0, 'VIII',0,100),
+(0, 0, 'IX',0,100),
+(0, 0, 'X',0,200);
 
 INSERT INTO apertura_cierre
 (id_almacen, id_dia, apertura, cierre)

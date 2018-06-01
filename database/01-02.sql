@@ -22,7 +22,9 @@ CREATE TABLE almacen
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
     id_titular INTEGER UNSIGNED,
     disponibilidad TINYINT UNSIGNED,
-    nombre_almacen VARCHAR(120) NOT NULL
+    nombre_almacen VARCHAR(120) NOT NULL,
+    existencias INTEGER,
+    capacidad INTEGER
 );
 
 CREATE TABLE apertura_cierre

@@ -11,7 +11,7 @@ class AlmacenesDesocupadosModel extends Model
     }
     public function almacenes()
     {
-        $sql = 'SELECT idAlmacen, id_titular, nombre_almacen, capacidad, existencias FROM '.$this->table;
+        $sql = 'SELECT id, id_titular, nombre_almacen, capacidad, existencias FROM '.$this->table;
         try {
             $almacenes = $this->db->query($sql)->fetchAll(
                 PDO::FETCH_CLASS,
