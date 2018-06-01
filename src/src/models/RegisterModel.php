@@ -2,7 +2,7 @@
 
 class RegisterModel extends Model
 {
-    private $table = 'persona';
+    private $table = 'people';
     public $id;
     public $name;
     public $ci;
@@ -29,9 +29,9 @@ class RegisterModel extends Model
     }
     public function add()
     {
-        $sql = 'INSERT INTO '.$this->table.'(id, name, ci, day, hour) VALUES (?, ?, ?, ?, ?)';
+        $sql = 'INSERT INTO '.$this->table.'(name, ci, day, hour) VALUES (?, ?, ?, ?)';
         try {
-            $this->db->prepare($sql)->execute([$this->id, $this->name, $this->ci, $this->day, $this->hour]);
+            $this->db->prepare($sql)->execute([$this->name, $this->ci, $this->day, $this->hour]);
             return true;
         } catch (PDOException $e) {
             throw $e;
