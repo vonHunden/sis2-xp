@@ -60,7 +60,7 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
-        </ul>
+        
 
         <!--BOTON PAGINA REGISTRO-->
         <li class="nav-item dropdown">
