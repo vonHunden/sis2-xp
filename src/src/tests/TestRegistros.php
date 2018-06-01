@@ -2,7 +2,7 @@
 
 require('./src/.env.php');
 require('./src/core/DB.php');
-require('./src/core/Model.php');
+require('./src/core/register.php');
     
 
 class TestRegistrar extends \PHPUnit_Framework_TestCase
