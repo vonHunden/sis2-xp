@@ -15,8 +15,6 @@
     <link href="css/signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
-
-    <!--BARRA DE NAVEGACION-->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">Almacenes</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +34,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Almacenes</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="../almacenes/desocupados">Available</a>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
@@ -63,6 +61,12 @@
             </div>
           </li>
 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Empleados</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="../index/assistance">Asistencia</a>
+            </div>
+          </li>
 
           <!--BOTON PAGINA REGISTRO-->
           <li class="nav-item dropdown">
@@ -81,6 +85,7 @@
         </form>
       </div>
     </nav>
+
 
     <!--TABLAS DE LISTADO DE PRODUCTOS-->
     <main role="main" class="container">

@@ -34,7 +34,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Almacenes</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="almacenes/desocupados">Available</a>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
@@ -61,6 +61,12 @@
             </div>
           </li>
 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Empleados</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="index/assistance">Asistencia</a>
+            </div>
+          </li>
 
           <!--BOTON PAGINA REGISTRO-->
           <li class="nav-item dropdown">
