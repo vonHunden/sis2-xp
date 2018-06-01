@@ -4,12 +4,11 @@ class Category extends Controller
 {
     public function index()
     {
-        $room = $this->model('CategoryModel');
-        #$this->view('room/index');
-        $rooms = $room->rooms();
+        $category = $this->model('CategoryModel');
+        $categories = $category->categories();
         #echo "<pre>";
-        #print_r($room->rooms());
-        $this->view('category/index', ['rooms' => $rooms]);
+        #print_r($category->categories());
+        $this->view('category/index', ['categories' => $categories]);
     }
 
     public function template($view = '', $param = 0)
