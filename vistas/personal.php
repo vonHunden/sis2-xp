@@ -11,7 +11,7 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- singnin css -->
     <link href="css/signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
@@ -33,9 +33,8 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Almacenes</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="almacenes/desocupados">Available</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Listar</a>
+              <a class="dropdown-item" href="almacenes/desocupados">Desocupados</a>
             </div>
           </li>
 
@@ -44,9 +43,8 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categoria</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Por Tipo</a>
               <a class="dropdown-item" href="listarProductos.php">Listar</a>
-              <a class="dropdown-item" href="#">Descripciones</a>
+              <a class="dropdown-item" href="#">Agregar</a>
             </div>
           </li>
 
@@ -55,15 +53,19 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Listar</a>
+              <a class="dropdown-item" href="#">Agregar</a>
+              <a class="dropdown-item" href="#">Editar</a>
             </div>
           </li>
 
+          <!--BOTONO PAGINA EMPLEADOS-->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Empleados</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Listar</a>
+              <a class="dropdown-item" href="#">Agregar</a>
+              <a class="dropdown-item" href="#">Editar</a>
               <a class="dropdown-item" href="index/assistance">Asistencia</a>
             </div>
           </li>
