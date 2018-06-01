@@ -80,10 +80,10 @@
       </div>
     </nav>
     <form class="form-signin" method="POST" action="register/add">
-      <img class="mb-4" src="../../../public/img/logo.png" alt="" width="400" height="180">
+      <img class="mb-4" src="../../../public/img/logo.png" alt="" width="300" height="180">
       <h1 class="h3 mb-3 font-weight-normal">REGISTRO</h1>
 
-      
+
       <!--NOMBRE USUARIO-->
       <label for="name" class="sr-only">Name</label>
       <input type="text" id="name" name="name" class="form-control" placeholder="NAME" required="" autofocus="">
