@@ -1,0 +1,6 @@
+-- Inicia base de datos
+mysql -h 0.0.0.0 -u root -p < 01-02.sql
+-- Populate data en sis2_xp dabase
+mysql -h 0.0.0.0 -u root -p -D sis2_xp < 01-02-data.sql
+-- Delete sis2_xp database
+mysql -h 0.0.0.0 -u root -p < 01-02-destroy.sql

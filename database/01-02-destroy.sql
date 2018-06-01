@@ -1,0 +1,1 @@
+DROP DATABASE IF EXISTS sis2_xp;
