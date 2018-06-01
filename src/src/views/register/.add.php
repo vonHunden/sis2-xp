@@ -31,7 +31,7 @@
 
           <!--BOTON PAGINA ALMACEN-->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Almacenes</a>
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Almacenes</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
@@ -42,7 +42,7 @@
 
           <!--BOTON PAGINA CATEGORIA-->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categoria</a>
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categoria</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Por Tipo</a>
               <a class="dropdown-item" href="#">Listar</a>
@@ -53,26 +53,14 @@
 
           <!--BOTON PAGINA PRODUCTOS-->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
-        
-
-        <!--BOTON PAGINA REGISTRO-->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registro</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="personal.php">Ingresar a Registro</a>
-          </div>
-        </li>
-      </ul>
-
-
-      <!--CUADRO DE BUSQUEDA-->
+        </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Busqueda" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Busqueda</button>
@@ -80,10 +68,8 @@
       </div>
     </nav>
     <form class="form-signin" method="POST" action="register/add">
-      <img class="mb-4" src="../../../public/img/logo.png" alt="" width="300" height="180">
+      <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal">REGISTRO</h1>
-
-
       <!--NOMBRE USUARIO-->
       <label for="name" class="sr-only">Name</label>
       <input type="text" id="name" name="name" class="form-control" placeholder="NAME" required="" autofocus="">
@@ -108,7 +94,7 @@
     <script>
     function pulsar() {
         Alert("USUARIO CREADO");
-      }
+      } 
     </script>
     <!--
     <div class="alert alert-success">
