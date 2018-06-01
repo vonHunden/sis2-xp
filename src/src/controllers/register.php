@@ -38,7 +38,7 @@ class register extends Controller
             $register->day = $day;
             $register->hour = $hour;
             if ($register->add()) {
-                header('Location: http://localhost:4433/sis2-xp/src/public/register');
+                header('Location: http://localhost/sis2-xp/src/public/register');
                 echo "registrado";
                 #$this->view('register/add');
                 exit;

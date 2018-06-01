@@ -72,7 +72,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registro</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="personal.php">Ingresar a Registro</a>
+              <a class="dropdown-item" href="register">Ingresar a Registro</a>
             </div>
           </li>
         </ul>
