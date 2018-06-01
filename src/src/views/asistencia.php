@@ -60,8 +60,15 @@
           <a class="dropdown-item" href="#">Agregar</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Editar</a>
-          <a class="dropdown-item" href="../index/assistance">Asistencia</a>
+          <a class="dropdown-item" href="index/assistance">Asistencia</a>
         </div>
+      </li>
+
+      <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registro</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="register/index">Ingresar a Registro</a>
+            </div>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">

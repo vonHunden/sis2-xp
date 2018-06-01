@@ -16,7 +16,7 @@
   </head>
   <body class="text-center">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Register</a>
+      <a class="navbar-brand" href="#">Almacenes</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,7 +25,7 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Administrator<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
           </li>
 
 
@@ -34,7 +34,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Almacenes</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="almacenes/desocupados">Available</a>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
@@ -45,7 +45,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categoria</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Por Tipo</a>
-              <a class="dropdown-item" href="#">Listar</a>
+              <a class="dropdown-item" href="listarProductos.php">Listar</a>
               <a class="dropdown-item" href="#">Descripciones</a>
             </div>
           </li>
@@ -60,25 +60,31 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
-        
 
-        <!--BOTON PAGINA REGISTRO-->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registro</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="personal.php">Ingresar a Registro</a>
-          </div>
-        </li>
-      </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Empleados</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="index/assistance">Asistencia</a>
+            </div>
+          </li>
 
+          <!--BOTON PAGINA REGISTRO-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registro</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="register">Ingresar a Registro</a>
+            </div>
+          </li>
+        </ul>
 
-      <!--CUADRO DE BUSQUEDA-->
+        <!--CUADRO DE BUSQUEDA-->
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Busqueda" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Busqueda</button>
         </form>
       </div>
     </nav>
+
     <form class="form-signin" method="POST" action="register/add">
       <img class="mb-4" src="../../../public/img/logo.png" alt="" width="300" height="180">
       <h1 class="h3 mb-3 font-weight-normal">REGISTRO</h1>
