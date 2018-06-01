@@ -85,19 +85,19 @@
       <img class="mb-4" src="img/logo.png" alt="" width="400" height="180">
       <h1 class="h3 mb-3 font-weight-normal">REGISTRO</h1>
       <!--NOMBRE USUARIO-->
-      <label for="inputEmail" class="sr-only">Nombre</label>
+      <label for="name" class="sr-only">Nombre</label>
       <input type="text" id="inputEmail" class="form-control" placeholder="Nombre Usuario" required="" autofocus="">
 
       <!--CARNET DE INDENTIDAD-->
-      <label for="inputPassword" class="sr-only">CI</label>
+      <label for="ci user" class="sr-only">CI</label>
       <input type="text" id="inputPassword" class="form-control" placeholder="Carnet de Identidad" required="">
 
       <!--DIA INGRESO-->
-      <label for="inputEmail" class="sr-only">Dia</label>
+      <label for="inputDia" class="sr-only">Dia</label>
       <input type="text" id="inputEmail" class="form-control" placeholder="Dia" required="" autofocus="">
 
       <!--HORA DE INGRESO-->
-      <label for="inputEmail" class="sr-only">Hora</label>
+      <label for="inputHour" class="sr-only">Hora</label>
       <input type="text" id="inputEmail" class="form-control" placeholder="Hora" required="" autofocus="">
 
       <!--BOTON DE REGISTRO-->
