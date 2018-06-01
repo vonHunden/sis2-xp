@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+
     <title>xp</title>
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="css/signin.css" rel="stylesheet">
   </head>
@@ -28,7 +31,7 @@
 
           <!--BOTON PAGINA ALMACEN-->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Almacenes</a>
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Almacenes</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
@@ -39,10 +42,10 @@
 
           <!--BOTON PAGINA CATEGORIA-->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categoria</a>
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categoria</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Por Tipo</a>
-              <a class="dropdown-item" href="#">Listar</a>
+              <a class="dropdown-item" href="listarProductos.php">Listar</a>
               <a class="dropdown-item" href="#">Descripciones</a>
             </div>
           </li>
@@ -50,23 +53,32 @@
 
           <!--BOTON PAGINA PRODUCTOS-->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
+
+
+          <!--BOTON PAGINA REGISTRO-->
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="personal.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registro</a>
+
+          </li>
         </ul>
+
+
+        <!--CUADRO DE BUSQUEDA-->
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Busqueda" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Busqueda</button>
         </form>
       </div>
     </nav>
-    <div class="center">
-      <h2>hola</h2>
-    </div>
+
+
 
     <span id="buffer-extension-hover-button" style="display: none; position: absolute; z-index: 8675309; width: 100px; height: 25px; background-image: url(&quot;chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/img/buffer-hover-icon@1x.png&quot;); background-size: 100px 25px; opacity: 0.9; cursor: pointer;"></span>
     <!-- Optional JavaScript -->
