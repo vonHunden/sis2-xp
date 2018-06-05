@@ -56,6 +56,8 @@
             </div>
           </li>
 
+          <!--BOTON PAGINA empleados-->
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Empleados</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">

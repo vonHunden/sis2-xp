@@ -25,7 +25,7 @@
           Almacenes
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/category">Listar</a>
+        <a class="nav-link" href="<?php echo _HOME;?>/almacenes">listar</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="../almacenes/desocupados">Desocupados</a>
         </div>
