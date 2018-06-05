@@ -60,6 +60,8 @@
             </div>
           </li>
 
+          <!--BOTON PAGINA empleados-->
+
           <!--BOTON PAGINA REGISTRO-->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registro</a>
