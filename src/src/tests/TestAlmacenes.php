@@ -3,13 +3,20 @@
 require('./src/env.php');
 require('./src/core/DB.php');
 require('./src/core/Model.php');
-    
+
+/*
+require('../env.php');
+require('../core/DB.php');
+require('../core/Model.php');
+*/
+
 
 class TestAlmacenes extends \PHPUnit_Framework_TestCase
 {
     private function model($model)
     {
-        require_once('./src/models/'.$model.'.php');
+        srequire_once('./src/models/'.$model.'.php');
+        //require_once('../models/'.$model.'.php');
         return new $model();
     }
         

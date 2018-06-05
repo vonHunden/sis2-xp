@@ -31,15 +31,10 @@
           </li>
 
 
-          <!--BOTON PAGINA ALMACEN-->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Almacenes</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
+        <!--BOTON PAGINA ALMACEN-->
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="<?php echo _HOME;?>/almacenes">Almacenes</a>
+        </li>
 
 
           <!--BOTON PAGINA CATEGORIA-->
@@ -47,7 +42,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categoria</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Por Tipo</a>
-              <a class="dropdown-item" href="listarProductos.php">Listar</a>
+              <a class="dropdown-item" href="<?php echo _HOME;?>/category">Listar</a>
               <a class="dropdown-item" href="#">Descripciones</a>
             </div>
           </li>
@@ -68,7 +63,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registro</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="personal.php">Ingresar a Registro</a>
+              <a class="dropdown-item" href="<?php echo _HOME;?>/register">Ingresar a Registro</a>
             </div>
           </li>
         </ul>
@@ -85,7 +80,8 @@
     <!--TABLAS DE LISTADO DE PRODUCTOS-->
     <main role="main" class="container">
         <div class="jumbotron">
-          <img class="mb-4" src="img/logo.png" alt="" width="400" height="180">
+         <!-- <img class="mb-4" src="img/logo.png" alt="" width="400" height="180"> -->
+          <h1>a </h1>
           <h1>LISTADO DE PRODUCTOS POR CATEGORIA</h1>
           <table class="table">
           <thead>
