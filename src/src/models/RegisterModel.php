@@ -35,6 +35,7 @@ class RegisterModel extends Model
             return true;
         } catch (PDOException $e) {
             throw $e;
+            return false;
         }
     }
     public function update()

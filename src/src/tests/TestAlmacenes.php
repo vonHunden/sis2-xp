@@ -11,11 +11,11 @@ require('../core/Model.php');
 */
 
 
-class TestAlmacenes extends \PHPUnit_Framework_TestCase
+class TestAlmacenes extends PHPUnit\Framework\TestCase
 {
     private function model($model)
     {
-        srequire_once('./src/models/'.$model.'.php');
+        require_once('./src/models/'.$model.'.php');
         //require_once('../models/'.$model.'.php');
         return new $model();
     }

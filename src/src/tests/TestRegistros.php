@@ -1,11 +1,11 @@
 <?php
 
-require('./src/.env.php');
+require('./src/env.php');
 require('./src/core/DB.php');
 require('./src/core/Model.php');
     
 
-class TestRegistrar extends \PHPUnit_Framework_TestCase
+class TestRegistrar extends PHPUnit\Framework\TestCase
 {
     private function model($model)
     {

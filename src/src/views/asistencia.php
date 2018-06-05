@@ -82,7 +82,7 @@
 
 <h2>Registro de Asistencia</h2>
 
-<form id="form" action="/docentes" method="POST" role="form">
+<form id="form" action="asistencia" method="POST" role="form">
       <div class="form-group">
         <label>Empleado</label>
         <input name="nombre" class="form-control" placeholder="">
