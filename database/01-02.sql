@@ -1,4 +1,5 @@
 --
+DROP DATABASE IF EXISTS sis2_xp;
 CREATE DATABASE IF NOT EXISTS sis2_xp;
 USE sis2_xp;
 --
