@@ -17,10 +17,6 @@ class Home extends Controller
     {
         echo 'Home contact';
     }
-    public function assistance()
-    {
-        return $this->view('asistencia');
-    }
     public function available()
     {
         return $this->view('almacenes/desocupados');

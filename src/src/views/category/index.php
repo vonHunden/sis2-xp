@@ -33,7 +33,11 @@
 
         <!--BOTON PAGINA ALMACEN-->
         <li class="nav-item dropdown">
-            <a class="nav-link" href="<?php echo _HOME;?>/almacenes">Almacenes</a>
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Almacenes</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="<?php echo _HOME;?>/almacenes">Listar</a>
+            <a class="dropdown-item" href="<?php echo _HOME;?>/almacenes/desocupados">Desocupados</a>
+          </div>
         </li>
 
 
@@ -64,6 +68,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registro</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="<?php echo _HOME;?>/register">Ingresar a Registro</a>
+              <a class="dropdown-item" href="<?php echo _HOME;?>/register/asistencia">Asistencia</a>
             </div>
           </li>
         </ul>

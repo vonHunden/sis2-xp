@@ -48,4 +48,9 @@ class register extends Controller
         }
     }
 
+    public function asistencia()
+    {
+        return $this->view('asistencia');
+    }
+
 }
